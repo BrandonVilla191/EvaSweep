@@ -19,7 +19,7 @@ pd.set_option('display.max_columns', None)
 pd.set_option('display.expand_frame_repr', False)
 pd.set_option('max_colwidth', None)
 
-os.environ["OPENAI_KEY"] = "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"
+os.environ["OPENAI_KEY"] = "sk---"
 openai.api_key = os.environ["OPENAI_KEY"]
 
 
