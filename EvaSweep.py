@@ -43,14 +43,6 @@ cursor.query("""
 """).df()
 
 cursor.query("""
-  DROP TABLE IF EXISTS inputs
-""").df()
-
-cursor.query("""
-    CREATE TABLE inputs (input TEXT(500), embed NDARRAY FLOAT32(1,1536))
-""").df()
-
-cursor.query("""
   DROP TABLE IF EXISTS response
 """).df()
 
