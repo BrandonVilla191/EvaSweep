@@ -1,7 +1,3 @@
-# coding=utf-8
-# Copyright 2018-2023 EvaDB
-# ... [rest of your imports and license info]
-
 from evadb.functions.abstract.abstract_function import AbstractFunction
 import pandas as pd
 import numpy as np
@@ -23,7 +19,6 @@ class EmbeddingArrayConverter(AbstractFunction):
     @staticmethod
     def convert_embedding_string_to_array(embedding_str):
         # Convert the string representation of the embedding into a NumPy array
-        # Assuming the string is formatted correctly as a comma-separated list
         return np.fromstring(embedding_str, sep=',')
 
     @forward(
