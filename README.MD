@@ -4,3 +4,9 @@ This app uses gpt and embedding models that are provided by OpenAI. The gpt is i
 The FAISS index is used due to faster performance over other vector indices. This FAISS integration and index creating is supported by EvaDB
 
 Finally, there is also a STR2ARRAY function that converts inputted string dataframes into floats that can be read by the similarity function in EvaDB. When adding an array to the SQLITE column provided by EvaDB,the entries were converted to strings. This function ensured that floats could be passed into the similarity function to enable it to work.
+
+A github token is needed to use the app. Instructions for how to create one can be found here
+https://docs.github.com/en/authentication/keeping-your-account-and-data-secure/managing-your-personal-access-tokens
+
+An openAI api key is also needed. Instructions can be found here:
+https://help.openai.com/en/articles/4936850-where-do-i-find-my-api-key
