@@ -16,7 +16,7 @@ import requests
 import sys
 
 from openai import OpenAI
-os.environ['OPENAI_API_KEY'] = "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"
+os.environ['OPENAI_API_KEY'] = ""
 client = OpenAI(
   api_key=os.environ['OPENAI_API_KEY'], 
 )
